@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEB</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8029deadd9.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header" onclick="closemenu()">Home</a></li>
+                        <li><a href="#about" onclick="closemenu()">About</a></li>
+                        <li><a href="#services" onclick="closemenu()">Services</a></li>
+                        <li><a href="#portfolio" onclick="closemenu()">Certifications</a></li>
+                        <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h4><span>Alay Shah</span> an Odoo Developer <br/>having a knack for innovation.</h4>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="about_me.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"> About Me</h1>
+                        <p>As an computer engineer , I have developed strong leadership and communication skills. I enjoyed collaborating with cross-functional teams to deliver successful projects. My experience has taught me how to guide, motivate and support my colleagues to achieve their best work.
+
+                            I have strong proficiency in Python, odoo , MySQL, postgres , and related technologies. I have also worked with front-end technologies such as HTML, CSS, and some JavaScript frameworks. My experience in integrating third-party APIs has helped me in building robust and scalable systems.
+                            
+                            I am a continuous learner and always looking for opportunities to enhance my skills and stay up-to-date with the latest industry trends and technologies. I am excited to work on projects that challenge me and allow me to grow professionally.
+                            
+                            If you are looking for a skilled odoo developer having both technical and functional knowledge, let's connect and discuss potential opportunities.</p>
+
+                        <div class="tab-titles">    
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education </p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">  
+                            <ul>
+                                <li>
+                                    <span>Python</span><br/>ORM methods,API's, Development of odoo modules.
+                                </li>
+                               
+                                <li>
+                                    <span>Odoo Technical</span><br/>I can do Coding for Development of Odoo odules as per client requirement
+                                </li>
+                                <li>
+                                    <span>Odoo Functional</span></span><br/>I can also consult and perform for the functional flow of all odoo modules.
+                                </li>
+                                <li>
+                                    <span>Front-end Developer</span></span><br/>I am having knowledge of HTML and CSS and also worked with other JavaScript Front-end frameworks.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">  
+                            <ul>
+                                <li>
+                                    <span>Python</span><br/>ORM methods,API's, Development of odoo modules.
+                                </li>
+                               
+                                <li>
+                                    <span>Odoo Technical</span><br/>I can do Coding for Development of Odoo odules as per client requirement
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">  
+                            <ul>
+                                <li>
+                                    <span>Python</span><br/>ORM methods,API's, Development of odoo modules.
+                                </li>
+                               
+                                <li>
+                                    <span>Odoo Technical</span><br/>I can do Coding for Development of Odoo odules as per client requirement
+                                </li>
+                                <li>
+                                    <span>Odoo Functional</span></span><br/>I can also consult and perform for the functional flow of all odoo modules.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">MY Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2> Software Development</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur alias odit natus adipisci, nostrum obcaecati ea, ipsa recusandae, eaque exercitationem assumenda! Laborum animi culpa cupiditate, impedit at atque vitae assumenda.</p>
+                        <a href="#">Know More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2> Software Development 2</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur alias odit natus adipisci, nostrum obcaecati ea, ipsa recusandae, eaque exercitationem assumenda! Laborum animi culpa cupiditate, impedit at atque vitae assumenda.</p>
+                        <a href="#">Know More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-apple"></i>
+                        <h2> Software Development 3</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur alias odit natus adipisci, nostrum obcaecati ea, ipsa recusandae, eaque exercitationem assumenda! Laborum animi culpa cupiditate, impedit at atque vitae assumenda.</p>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Certificates</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png">
+                        <div class="layer">
+                            <h3>Social Media Application</h3>
+                            <p> optio iste quibusdam tenetur temporibus sint iusto totam reprehenderit mollitia architecto.</p>
+                            <a href="#"><i class="fa-brands fa-apple"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                            <h3>Social Application</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ex debitis labore blanditiis incidunt, eos mollitia sunt sint. Amet optio iste quibusdam tenetur temporibus sint iusto totam reprehenderit mollitia architecto.</p>
+                            <a href="#"><i class="fa-brands fa-apple"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-3.png">
+                        <div class="layer">
+                            <h3>Media Application</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ex debitis labore blanditiis incidunt, eos mollitia sunt sint. Amet optio iste quibusdam tenetur temporibus sint iusto totam reprehenderit mollitia architecto.</p>
+                            <a href="#"><i class="fa-brands fa-apple"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="certificate.html" class="btn">See More</a>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>alayshahas7088@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>6351524502</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/alay-shah-51ba94214/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/alay-shah-51ba94214/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/alay-shah-51ba94214/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <a href="Resume.pdf" download class="btn btn-2">Downlaod CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder=" eg-Alay Shah" required>
+                            <input type="email" name="Email" placeholder=" eg-alayshahas7088@gmail.com" required>
+                            <textarea name="Message" rows="6" placeholder=" eg-Let's connect"></textarea>
+                            <button type="submit" class="btn btn-2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu")
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbynrgiihNsV3H2fSjYmUbmEp5KX7Bj3--6Rd322XX3nGmWf013tq37pBsGcDHz7fLIS7Q/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
